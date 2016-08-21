@@ -1,0 +1,44 @@
+{
+  "name": "angular2-youtube-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obber/angular2-youtube-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obber/angular2-youtube-app/issues"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/compiler": "2.0.0-rc.4",
+    "@angular/core": "2.0.0-rc.4",
+    "@angular/forms": "^0.2.0",
+    "@angular/http": "2.0.0-rc.4",
+    "@angular/platform-browser": "2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+    "@angular/router": "3.0.0-beta.2",
+    "core-js": "^2.4.0",
+    "lodash": "^4.13.1",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "1.0",
+    "raw-loader": "^0.5.1",
+    "to-string-loader": "^1.1.4",
+    "ts-helpers": "^1.1.1",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "homepage": "https://github.com/obber/angular2-youtube-app#readme",
+  "description": ""
+}
