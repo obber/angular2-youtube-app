@@ -1,0 +1,8 @@
+<div class="sidebar col-md-4">
+  <search></search>
+  <div class="video-list">
+    <div *ngFor="let video of queryResults$ | async">
+      <list-entry [video]="video" [onClick]="onClick"></list-entry>
+    </div>
+  </div>
+</div>

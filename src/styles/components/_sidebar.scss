@@ -1,0 +1,47 @@
+.search {
+  padding: 30px 15px;
+
+  input {
+    padding: 11px 15px;
+    width: 100%;
+  }
+}
+
+.sidebar {
+  background-color: #f7f7f7;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding-top: 75px;
+  overflow-y: auto;
+}
+
+// video list
+.video-list {
+  padding: 0 15px;
+}
+
+.single-video {
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $green;
+  }
+
+  img {
+    float: left;
+    margin: 0 20px 10px 0;
+  }
+
+  .title {
+    margin-top: 0;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+}
