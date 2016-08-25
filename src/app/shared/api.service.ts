@@ -30,23 +30,6 @@ export class Api {
       ))
     );
 
-    // return new Promise((resolve, reject) => {
-    //   const sample = {
-    //     description: "BUMP OF CHICKEN「Hello,world! / コロニー」http://amzn.to/1cUREVd 2015.04.22 (wed) Release ＜収録曲＞ 01. Hello,world!（TVアニメ「血界戦線」オープニング・ ...",
-    //     thumbnails: {
-    //       default: {
-    //         height: 90,
-    //         width: 120,
-    //         url: "https://i.ytimg.com/vi/rOU4YiuaxAM/default.jpg"
-    //       }
-    //     },
-    //     title: "BUMP OF CHICKEN「Hello,world!",
-    //     videoId: "rOU4YiuaxAM"
-    //   };
-    //   const result = new Array(10).fill(Object.assign({}, sample));
-    //   resolve(result);
-    // });
-
     return this.http.get('https://www.googleapis.com/youtube/v3/search', { search: params })
       .toPromise()
       .then(resp => resp.json())
