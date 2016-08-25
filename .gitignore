@@ -3,4 +3,4 @@ dist
 node_modules
 
 # api keys
-src/config.js
+src/app/shared/config.ts
