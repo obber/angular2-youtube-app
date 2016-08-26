@@ -24,9 +24,10 @@ export class Search {
     this.actions.newQuery(this.searchModel);
 
     this.api.search(this.searchModel)
-      .then(resp => {
-        console.log(resp);
+      .subscribe(resp => {
         this.actions.newResults(resp);
-      })
+      }, resp => {
+        console.error('resp = ', resp);
+      });
   }
 }
